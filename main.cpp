@@ -58,6 +58,6 @@ int main(){
             cout << amount << "€ is equal to " << amount2 << "₹\n"; 
         } 
     }else{ 
-        cout << "Invalid entry. (check spelling!)\n"; 
+        cout << "Invalid entry. (check spelling!!)\n"; 
     } 
 }
