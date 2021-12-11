@@ -6,7 +6,7 @@ int main(){
     double amount; 
     double amount2; 
     cout << "What currency would you like to convert? \n"; 
-    cout << "The currencies are: Rupees, Dollars, pound, and Euros. \n"; 
+    cout << "The currencies are: Rupees, Dollars, Pound, and Euros. \n"; 
     cin >> currency; 
     cout << "What currency would you like to convert to? \n"; 
     cin >> currency2; 
@@ -16,7 +16,7 @@ int main(){
         if (currency2 == "rupees"){ 
             amount2 = amount * 75.44; 
             cout << amount << "$ is equal to " << amount2 << "₹\n"; 
-        }else if (currency2 == "pound"){ 
+        }else if (currency2 == "Pound"){ 
             amount2 = amount * 99.78; 
             cout << amount << "$ is equal to " << amount2 << "Mex$\n"; 
         }else if (currency2 == "euros"){ 
@@ -28,14 +28,14 @@ int main(){
         if (currency2 == "dollars"){ 
             amount2 = amount * .013; 
             cout << amount << "₹ is equal to " << amount2 << "$\n"; 
-        }else if (currency2 == "pound"){ 
+        }else if (currency2 == "Pound"){ 
             amount2 = amount * .010; 
             cout << amount << "₹ is equal to " << amount2 << "Mex$\n"; 
         }else if (currency2 == "euros"){ 
             amount2 = amount * .012; 
             cout << amount << "₹ is equal to " << amount2 << "€\n"; 
         } 
-    }else if (currency == "pound"){ 
+    }else if (currency == "Pound"){ 
             if (currency2 == "dollars"){ 
                 amount2 = amount * 1.32; 
                 cout << amount << " £ is equal to " << amount2 << "$\n"; 
